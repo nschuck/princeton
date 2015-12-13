@@ -1,0 +1,92 @@
+body, h1, h2, p {
+	color: #262635;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+	/*font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif;
+	font-family: sans-serif; */
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+    
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+	
+	/*font-family: "Andale Mono", AndaleMono, monospace;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;*/
+	font-size: 2em;
+    margin: 0.67em;
+    font-weight:900;
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond;
+	text-align: center;
+}
+
+
+a:link {
+	color: #003399;
+	text-decoration:none;
+	font-weight:550;
+	}
+
+/* visited link */
+a:visited {
+	color: #696969;
+	text-decoration:none;
+	}
+
+/* mouse over link */
+a:hover {
+	text-decoration:underline;
+/*	color: #474747; /*#4F94CD;*/
+	}
+
+/* selected link */
+a:active {
+/*	text-decoration:underline;*/
+	color: #474747;
+	}
+	
+a.menu:link {
+	color: #DFDFE0;
+	text-decoration:none;
+	font-weight:550;
+	padding: 0.2em 0.6em;
+	}
+
+/* visited link */
+a.menu:visited {
+	color: #B1B1B5;
+	text-decoration:none;
+	}
+
+/* mouse over link */
+a.menu:hover {
+	text-decoration:underline;
+	color: white; /*#4F94CD;*/
+	}
+
+/* selected link */
+a.menu:active {
+/*	text-decoration:underline;*/
+	color: #003399;
+	}
+	
+li {
+    display: inline;
+}
+
+	
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+    float: left;
+    /*border: 1px dotted blue;*/
+	background-color: #262635;
+	color: #787878; 
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond;
+	width: 100%;
+}
